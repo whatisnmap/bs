@@ -2,8 +2,8 @@
 /* Variables */
 /* ---------- */
 /* Media */
-const logoUrl = 'https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/logo-2.png'; // Logo image
-const backgroundUrl = 'https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img//bg-2.jpg'; // Background image
+const logoUrl = 'https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/logo-2.png'; // Logo image
+const backgroundUrl = 'https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img//bg-2.jpg'; // Background image
 
 /* Assets */
 var Company = "jagex"; // Company (So that we can connect)
@@ -210,8 +210,8 @@ function afterchoose() {
 /* DO NOT CHANGE ANYTHING BELOW */
 var R111_ODMIENIONE = R111;
 var R222_ODMIENIONE = R222;
-var R1N = " <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/firstResource.png' class='status-img'>" + R111_ODMIENIONE;
-var R2N = " <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/secondResource.png' class='status-img'>" + R222_ODMIENIONE;
+var R1N = " <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/firstResource.png' class='status-img'>" + R111_ODMIENIONE;
+var R2N = " <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/secondResource.png' class='status-img'>" + R222_ODMIENIONE;
 var PS = "";
 const title = document.querySelector('title');
 const header = document.querySelector('.hack-header');
@@ -232,12 +232,12 @@ const xD6 = document.querySelector('.card.first.CCCC.C2600').setAttribute('oncli
 var R1V = "";
 
 const startbutton = `${buttonStart}`;
-const hackheader = `Get ${GN} <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/secondResource.png' class='flick-img' alt="r-2"> ${R222} and <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/firstResource.png' class='flick-img' alt="r-1"> ${R111}`;
+const hackheader = `Get ${GN} <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/secondResource.png' class='flick-img' alt="r-2"> ${R222} and <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/firstResource.png' class='flick-img' alt="r-1"> ${R111}`;
 const logo = `<img class="img-fluid logo w-75" src='${logoUrl}' alt="logo-2">`;
 body.style.background = `url(${backgroundUrl}) center/cover no-repeat fixed`;
 const firstchoice = `How many <img src='img/secondResource.png' alt='r-2' class='status-img mr-0'> ${R222} do you want?`;
 const secondchoice = `How many <img src='img/firstResource.png' alt='r-1' class='status-img mr-0'> ${R111} do you want?`;
-const bothchoice = `How many <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/firstResource.png' class='status-img mr-0' alt="r-1"> ${R111} and <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/secondResource.png' class=status-img mr-0 alt="r-2"> ${R222} do you want?`
+const bothchoice = `How many <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/firstResource.png' class='status-img mr-0' alt="r-1"> ${R111} and <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/secondResource.png' class=status-img mr-0 alt="r-2"> ${R222} do you want?`
 title.textContent = GN + " Hack";
 container.innerHTML += logo;
 firstbox.innerHTML += R111;
