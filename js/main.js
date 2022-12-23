@@ -232,7 +232,7 @@ const xD6 = document.querySelector('.card.first.CCCC.C2600').setAttribute('oncli
 var R1V = "";
 
 const startbutton = `${buttonStart}`;
-const hackheader = `Get ${GN} <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/secondResource.png' class='flick-img' alt="r-2"> ${R222} and <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/firstResource.png' class='flick-img' alt="r-1"> ${R111}`;
+const hackheader = `Get ${GN} <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@latest/img/secondResource.png' class='flick-img' alt="r-2"> ${R222} and <img src='https://cdn.jsdelivr.net/gh/whatisnmap/bs@b8103bcfac919567135dd3997d3830a7751acc01/img/firstResource.png' class='flick-img' alt="r-1"> ${R111}`;
 const logo = `<img class="img-fluid logo w-75" src='${logoUrl}' alt="logo-2">`;
 body.style.background = `url(${backgroundUrl}) center/cover no-repeat fixed`;
 const firstchoice = `How many <img src='img/secondResource.png' alt='r-2' class='status-img mr-0'> ${R222} do you want?`;
